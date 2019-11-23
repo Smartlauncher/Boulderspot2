@@ -32,7 +32,7 @@
         app:srcCompat="@mipmap/home" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/toolbar_cal"
         android:layout_width="91dp"
         android:layout_height="73dp"
         app:layout_constraintBottom_toBottomOf="@+id/view"
@@ -56,7 +56,7 @@
         app:srcCompat="@mipmap/shop" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/toolbar_help"
         android:layout_width="97dp"
         android:layout_height="79dp"
         app:layout_constraintBottom_toBottomOf="@+id/view"
