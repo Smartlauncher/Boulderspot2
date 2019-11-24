@@ -7,7 +7,7 @@
     tools:context=".home">
 
     <ImageView
-        android:id="@+id/Image_H_Picture"
+        android:id="@+id/Image_E_Picture"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginTop="150dp"
@@ -20,11 +20,11 @@
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
-        android:id="@+id/Placeholder_H_Name"
+        android:id="@+id/Placeholder_E_Name"
         android:layout_width="350dp"
         android:layout_height="25dp"
         android:layout_marginTop="2dp"
-        android:text="@H_Name"
+        android:text="@E_Name"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,11 +34,11 @@
         app:layout_constraintVertical_bias="0.283" />
 
     <TextView
-        android:id="@+id/Placeholder_H_Place"
+        android:id="@+id/Placeholder_E_Place"
         android:layout_width="200dp"
         android:layout_height="20dp"
         android:layout_marginTop="2dp"
-        android:text="@H_Place"
+        android:text="@E_Place"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,11 +48,95 @@
         app:layout_constraintVertical_bias="0.318" />
 
     <TextView
-        android:id="@+id/placeholder_H_Description"
+        android:id="@+id/Placeholder_E_Date"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:text="@E_Date"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712" />
+
+    <TextView
+        android:id="@+id/Lb_Date"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:text="Save the date"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
+
+    <TextView
+        android:id="@+id/Placeholder_E_Route"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:text="@E_Route"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <TextView
+        android:id="@+id/Placeholder_E_Alter"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:text="@E_Alter"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <TextView
+        android:id="@+id/Placeholder_E_Time"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:text="@E_Time"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712" />
+
+    <TextView
+        android:id="@+id/Placeholder_E_Grade"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:text="@E_Grade"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712" />
+
+    <TextView
+        android:id="@+id/placeholder_E_Description"
         android:layout_width="350dp"
         android:layout_height="200dp"
         android:layout_marginTop="2dp"
-        android:text="@H_Description"
+        android:text="@E_Description"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,11 +146,11 @@
         app:layout_constraintVertical_bias="0.48" />
 
     <TextView
-        android:id="@+id/Placeholder_H_Price"
+        android:id="@+id/Placeholder_E_Price"
         android:layout_width="150dp"
         android:layout_height="20dp"
         android:layout_marginTop="2dp"
-        android:text="@H_Price"
+        android:text="@E_Price"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
